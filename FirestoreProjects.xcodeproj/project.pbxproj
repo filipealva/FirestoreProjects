@@ -15,6 +15,7 @@
 		99FF01C225E1B82B00AB8F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF01C025E1B82B00AB8F18 /* LaunchScreen.storyboard */; };
 		99FF01CD25E1B82B00AB8F18 /* FirestoreProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01CC25E1B82B00AB8F18 /* FirestoreProjectsTests.swift */; };
 		99FF01D825E1B82B00AB8F18 /* FirestoreProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01D725E1B82B00AB8F18 /* FirestoreProjectsUITests.swift */; };
+		99FF01EA25E1B85F00AB8F18 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01E925E1B85F00AB8F18 /* Persistable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		99FF01D325E1B82B00AB8F18 /* FirestoreProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirestoreProjectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FF01D725E1B82B00AB8F18 /* FirestoreProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreProjectsUITests.swift; sourceTree = "<group>"; };
 		99FF01D925E1B82B00AB8F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FF01E925E1B85F00AB8F18 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		99FF01B425E1B82A00AB8F18 /* FirestoreProjects */ = {
 			isa = PBXGroup;
 			children = (
+				99FF01E825E1B84800AB8F18 /* Database */,
 				99FF01B525E1B82A00AB8F18 /* AppDelegate.swift */,
 				99FF01B725E1B82A00AB8F18 /* SceneDelegate.swift */,
 				99FF01B925E1B82A00AB8F18 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				99FF01D925E1B82B00AB8F18 /* Info.plist */,
 			);
 			path = FirestoreProjectsUITests;
+			sourceTree = "<group>";
+		};
+		99FF01E825E1B84800AB8F18 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				99FF01E925E1B85F00AB8F18 /* Persistable.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				99FF01BA25E1B82A00AB8F18 /* ViewController.swift in Sources */,
 				99FF01B625E1B82A00AB8F18 /* AppDelegate.swift in Sources */,
+				99FF01EA25E1B85F00AB8F18 /* Persistable.swift in Sources */,
 				99FF01B825E1B82A00AB8F18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
