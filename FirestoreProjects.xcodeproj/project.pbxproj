@@ -19,6 +19,9 @@
 		99FF01D825E1B82B00AB8F18 /* FirestoreProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01D725E1B82B00AB8F18 /* FirestoreProjectsUITests.swift */; };
 		99FF01EA25E1B85F00AB8F18 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01E925E1B85F00AB8F18 /* Persistable.swift */; };
 		99FF020D25E2C68200AB8F18 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF020C25E2C68200AB8F18 /* Project.swift */; };
+		99FF021525E2C7B700AB8F18 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF021425E2C7B700AB8F18 /* DatabaseManager.swift */; };
+		99FF021A25E2C7E000AB8F18 /* WriteTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF021925E2C7E000AB8F18 /* WriteTransaction.swift */; };
+		99FF021F25E2C94E00AB8F18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99FF021E25E2C94E00AB8F18 /* GoogleService-Info.plist */; };
 		B2B5BA8E87932FD7A4ECCDF4 /* Pods_FirestoreProjectsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DE69858DADB03DA1CC37E2 /* Pods_FirestoreProjectsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +65,9 @@
 		99FF01D925E1B82B00AB8F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99FF01E925E1B85F00AB8F18 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		99FF020C25E2C68200AB8F18 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		99FF021425E2C7B700AB8F18 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		99FF021925E2C7E000AB8F18 /* WriteTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTransaction.swift; sourceTree = "<group>"; };
+		99FF021E25E2C94E00AB8F18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BC738FCE288F9537AB865CA0 /* Pods-FirestoreProjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreProjects.debug.xcconfig"; path = "Target Support Files/Pods-FirestoreProjects/Pods-FirestoreProjects.debug.xcconfig"; sourceTree = "<group>"; };
 		F2D5BABD2682CF6AF74BA0AD /* Pods_FirestoreProjects_FirestoreProjectsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirestoreProjects_FirestoreProjectsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCD40E778A2A5AA201FE654 /* Pods-FirestoreProjects-FirestoreProjectsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreProjects-FirestoreProjectsUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirestoreProjects-FirestoreProjectsUITests/Pods-FirestoreProjects-FirestoreProjectsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +157,7 @@
 				99FF01BB25E1B82A00AB8F18 /* Main.storyboard */,
 				99FF01BE25E1B82B00AB8F18 /* Assets.xcassets */,
 				99FF01C025E1B82B00AB8F18 /* LaunchScreen.storyboard */,
+				99FF021E25E2C94E00AB8F18 /* GoogleService-Info.plist */,
 				99FF01C325E1B82B00AB8F18 /* Info.plist */,
 			);
 			path = FirestoreProjects;
@@ -178,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				99FF01E925E1B85F00AB8F18 /* Persistable.swift */,
+				99FF021425E2C7B700AB8F18 /* DatabaseManager.swift */,
+				99FF021925E2C7E000AB8F18 /* WriteTransaction.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -299,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99FF01C225E1B82B00AB8F18 /* LaunchScreen.storyboard in Resources */,
+				99FF021F25E2C94E00AB8F18 /* GoogleService-Info.plist in Resources */,
 				99FF01BF25E1B82B00AB8F18 /* Assets.xcassets in Resources */,
 				99FF01BD25E1B82A00AB8F18 /* Main.storyboard in Resources */,
 			);
@@ -429,7 +439,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99FF01BA25E1B82A00AB8F18 /* ViewController.swift in Sources */,
+				99FF021A25E2C7E000AB8F18 /* WriteTransaction.swift in Sources */,
 				99FF01B625E1B82A00AB8F18 /* AppDelegate.swift in Sources */,
+				99FF021525E2C7B700AB8F18 /* DatabaseManager.swift in Sources */,
 				99FF01EA25E1B85F00AB8F18 /* Persistable.swift in Sources */,
 				99FF020D25E2C68200AB8F18 /* Project.swift in Sources */,
 				99FF01B825E1B82A00AB8F18 /* SceneDelegate.swift in Sources */,

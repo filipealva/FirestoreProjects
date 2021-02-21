@@ -12,7 +12,12 @@ struct Project: Persistable {
     var projectName: String = ""
 
     static var collectionPath: String {
-        return "/projects"
+        return "projects/"
+    }
+
+    init(name: String) {
+        identifier = UUID().uuidString
+        projectName = name
     }
 
     init(dictionary: [String : Any]) {
