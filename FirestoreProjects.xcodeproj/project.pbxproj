@@ -11,7 +11,7 @@
 		89424AD08A7D61D63CB69ED5 /* Pods_FirestoreProjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374A591020001737BCE4048B /* Pods_FirestoreProjects.framework */; };
 		99FF01B625E1B82A00AB8F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B525E1B82A00AB8F18 /* AppDelegate.swift */; };
 		99FF01B825E1B82A00AB8F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B725E1B82A00AB8F18 /* SceneDelegate.swift */; };
-		99FF01BA25E1B82A00AB8F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B925E1B82A00AB8F18 /* ViewController.swift */; };
+		99FF01BA25E1B82A00AB8F18 /* ProjectsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B925E1B82A00AB8F18 /* ProjectsCollectionViewController.swift */; };
 		99FF01BD25E1B82A00AB8F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF01BB25E1B82A00AB8F18 /* Main.storyboard */; };
 		99FF01BF25E1B82B00AB8F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FF01BE25E1B82B00AB8F18 /* Assets.xcassets */; };
 		99FF01C225E1B82B00AB8F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FF01C025E1B82B00AB8F18 /* LaunchScreen.storyboard */; };
@@ -52,7 +52,7 @@
 		99FF01B225E1B82A00AB8F18 /* FirestoreProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirestoreProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FF01B525E1B82A00AB8F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FF01B725E1B82A00AB8F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99FF01B925E1B82A00AB8F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99FF01B925E1B82A00AB8F18 /* ProjectsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsCollectionViewController.swift; sourceTree = "<group>"; };
 		99FF01BC25E1B82A00AB8F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99FF01BE25E1B82B00AB8F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99FF01C125E1B82B00AB8F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 				99FF01E825E1B84800AB8F18 /* Database */,
 				99FF01B525E1B82A00AB8F18 /* AppDelegate.swift */,
 				99FF01B725E1B82A00AB8F18 /* SceneDelegate.swift */,
-				99FF01B925E1B82A00AB8F18 /* ViewController.swift */,
+				99FF01B925E1B82A00AB8F18 /* ProjectsCollectionViewController.swift */,
 				99FF01BB25E1B82A00AB8F18 /* Main.storyboard */,
 				99FF01BE25E1B82B00AB8F18 /* Assets.xcassets */,
 				99FF01C025E1B82B00AB8F18 /* LaunchScreen.storyboard */,
@@ -438,7 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99FF01BA25E1B82A00AB8F18 /* ViewController.swift in Sources */,
+				99FF01BA25E1B82A00AB8F18 /* ProjectsCollectionViewController.swift in Sources */,
 				99FF021A25E2C7E000AB8F18 /* WriteTransaction.swift in Sources */,
 				99FF01B625E1B82A00AB8F18 /* AppDelegate.swift in Sources */,
 				99FF021525E2C7B700AB8F18 /* DatabaseManager.swift in Sources */,

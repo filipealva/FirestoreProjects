@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProjectsCollectionViewController: UIViewController {
+class ProjectsCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
