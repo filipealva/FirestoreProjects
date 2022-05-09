@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D965A6137E7648BFE7CF576 /* Pods_FirestoreProjects_FirestoreProjectsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D5BABD2682CF6AF74BA0AD /* Pods_FirestoreProjects_FirestoreProjectsUITests.framework */; };
 		89424AD08A7D61D63CB69ED5 /* Pods_FirestoreProjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374A591020001737BCE4048B /* Pods_FirestoreProjects.framework */; };
+		99617CA726F1740C00198FB4 /* FetchedResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99617CA626F1740C00198FB4 /* FetchedResults.swift */; };
 		99FF01B625E1B82A00AB8F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B525E1B82A00AB8F18 /* AppDelegate.swift */; };
 		99FF01B825E1B82A00AB8F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B725E1B82A00AB8F18 /* SceneDelegate.swift */; };
 		99FF01BA25E1B82A00AB8F18 /* ProjectsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF01B925E1B82A00AB8F18 /* ProjectsCollectionViewController.swift */; };
@@ -49,6 +50,7 @@
 		515AFFC02F5827CA5E08D332 /* Pods-FirestoreProjects-FirestoreProjectsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreProjects-FirestoreProjectsUITests.release.xcconfig"; path = "Target Support Files/Pods-FirestoreProjects-FirestoreProjectsUITests/Pods-FirestoreProjects-FirestoreProjectsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71DE69858DADB03DA1CC37E2 /* Pods_FirestoreProjectsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirestoreProjectsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B6AE97599F0E2EC332EFEE /* Pods-FirestoreProjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreProjects.release.xcconfig"; path = "Target Support Files/Pods-FirestoreProjects/Pods-FirestoreProjects.release.xcconfig"; sourceTree = "<group>"; };
+		99617CA626F1740C00198FB4 /* FetchedResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResults.swift; sourceTree = "<group>"; };
 		99FF01B225E1B82A00AB8F18 /* FirestoreProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirestoreProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FF01B525E1B82A00AB8F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FF01B725E1B82A00AB8F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				99FF01E925E1B85F00AB8F18 /* Persistable.swift */,
 				99FF021425E2C7B700AB8F18 /* DatabaseManager.swift */,
 				99FF021925E2C7E000AB8F18 /* WriteTransaction.swift */,
+				99617CA626F1740C00198FB4 /* FetchedResults.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				99FF021A25E2C7E000AB8F18 /* WriteTransaction.swift in Sources */,
 				99FF01B625E1B82A00AB8F18 /* AppDelegate.swift in Sources */,
 				99FF021525E2C7B700AB8F18 /* DatabaseManager.swift in Sources */,
+				99617CA726F1740C00198FB4 /* FetchedResults.swift in Sources */,
 				99FF01EA25E1B85F00AB8F18 /* Persistable.swift in Sources */,
 				99FF020D25E2C68200AB8F18 /* Project.swift in Sources */,
 				99FF01B825E1B82A00AB8F18 /* SceneDelegate.swift in Sources */,

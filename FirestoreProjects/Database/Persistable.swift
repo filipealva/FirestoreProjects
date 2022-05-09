@@ -8,6 +8,9 @@
 import Foundation
 
 public protocol Persistable {
+    associatedtype PropertyValue: PropertyValueType = DefaultPropertyValue
+    associatedtype Query: QueryType = DefaultQuery
+
     var identifier: String { get }
     static var collectionPath: String { get }
 
@@ -23,7 +26,6 @@ public protocol PropertyValueType {
 }
 
 public enum DefaultPropertyValue: PropertyValueType {
-
     public var propertyValuePair: PropertyValuePair {
         return ("", 0)
     }
@@ -35,16 +37,8 @@ public protocol QueryType {
 }
 
 public enum DefaultQuery: QueryType {
-    case all
-    case identifier(String)
-
     public var predicate: NSPredicate? {
-        switch self {
-        case .all:
-            return nil
-        case .identifier(let value):
-            return NSPredicate(format: "identifier ==[c] %@", value)
-        }
+        nil
     }
 
     public var sortDescriptors: [NSSortDescriptor] {
