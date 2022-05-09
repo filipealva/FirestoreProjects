@@ -24,7 +24,11 @@ public final class WriteTransaction {
         )
     }
 
-    public func update<T: Persistable>(_ type: T.Type, withId identifier: String, values: [T.PropertyValue], pathParams: [CVarArg] = []) {
+    public func update<T: Persistable>(
+        _ type: T.Type, withId identifier: String,
+        values: [T.PropertyValue],
+        pathParams: [CVarArg] = []
+    ) {
         var dictionary: [String: Any] = [:]
 
         values.forEach {
